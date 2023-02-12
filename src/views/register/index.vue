@@ -2,7 +2,8 @@
   <div class="regContent">
     <div class="regBox">
       <div class="titleBox">
-        <span>后台管理系统</span>
+        <!-- <span>后台管理系统</span> -->
+        <img src="@/assets/images/login_title.png" alt="后台管理系统"/>
       </div>
       <el-form ref="regForm" :model="regForm" :rules="rulesObj">
         <el-form-item prop="username">
@@ -84,7 +85,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #999;
+  background-image: url('@/assets/images/login_bg.jpg');
 }
 .regBox {
   width: 400px;
